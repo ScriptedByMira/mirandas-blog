@@ -8,12 +8,16 @@ Miranda's blog is where I document my growth and consistency as I transition int
 ## Purpose 
 To practice my skills, stay consistent and build in public. 
 
-## What's new in v2
-- Nav and footer styling 
-- Hover effects to currently and project cards 
-- Project 2 card 
-- Added Blog entries 6-14 
-- Added contact page with LinkedIn and GitHub links  
+## What's New in v3
+- Layout restructured as a landing page
+- Viewport meta tag added for mobile
+- Avatar and intro section added
+- Featured project cards side by side w clickable links
+- Scrollable blog preview with See More button
+- Lora italic font for intro text
+- Added blog entries days 15-21
+- Project tab card 2 has clickable link to live project
+- Cleaned up HTML structure
 
 ## Live Site 
 https://scriptedbymiranda.github.io/mirandas-blog/
