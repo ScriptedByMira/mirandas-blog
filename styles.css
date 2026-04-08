@@ -17,15 +17,15 @@ h1 {
     color: #d67ba8;
     text-align: center;
     margin-bottom: 10px;
-    font-size: 32px;
+    font-size: 36px;
 }
 h2 {
     color: #a45c7c;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 h3 {
     color: #a45c7c;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 p {
     line-height: 1.6;
@@ -62,35 +62,97 @@ nav {
   border-radius: 15%;
   transition: transform 0.2s ease;
 }
-#welcome-message {
-    margin-top: 50px;
-    text-align:center;
-    margin-bottom: 40px;
+.intro-section {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
 }
-a {
+.intro-text {
+    text-align: left;
+    font-size: 22px;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    color: #a45c7cd2;
+}
+.intro-image img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+#currently-section {
+    text-align: center;
+}
+#featured-projects-section {
+    text-align: center;
+}
+.featured-projects-section {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+}
+.featured-projects-section .text-box {
+    flex: 1;
+}
+#blog-section {
+    text-align: center;
+}
+.blog-section {
+    background-color: #f6eef0;
+    border-radius: 15px;
+    padding: 8px;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+nav a {
     text-decoration: none;
     color: aliceblue;
 }
-a:focus {
+nav a:focus {
     color: #ecc2ec;
 }
-a:hover {
-    text-decoration: underline;
+nav a:hover {
     color: #ecc2ec;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.text-box a {
+    color: #a45c7c;
+    text-decoration: none;
+}
+
+.text-box a:hover {
+    text-decoration: underline;
 }
 .text-box {
     border-radius: 12px;
     border: solid 1.5px #a45c7c;
-    padding: 16px;
+    padding: 10px;
     background-color: #fff7f9;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
     margin-top: 20px;
 }
-.text-box:hover {
-    background-color: #f9e7eb;
-}
 .text-box p {
     line-height: 2;
+}
+#see-more {
+    border-radius: 20px;
+    border: 1px solid #9c627c;
+    background-color: #d285a8;
+    color: #fbf7f8;
+    padding: 6px 12px;
+    display: block;
+    margin-left: auto;
+    box-shadow: 1px 1px #9c627c;
+}
+#see-more:hover {
+    box-shadow: 2px 2px #88566d;
+    cursor: pointer;
 }
 footer {
     color: aliceblue;
