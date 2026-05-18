@@ -1,6 +1,6 @@
 body {
-    background-color: #fff7f9;
-    font-family: Arial, sans-serif;
+    background-color: #411528;
+    font-family: Playfair Display;
     color: #333;
     padding: 40px;
     display: flex;
@@ -8,37 +8,39 @@ body {
 }
 .container {
     width: 70%;
-    background: whitesmoke;
+    background: #FBEEF0;
     padding: 30px;
-    border-radius: 12px;
+    border-radius: 5px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
 }
 h1 {
-    color: #d67ba8;
+    color: #710C21;
     text-align: center;
-    margin-bottom: 10px;
-    font-size: 36px;
+    margin-bottom: 20px;
+    font-size: 42px;
+    font-style: italic;
 }
 h2 {
-    color: #a45c7c;
-    margin-top: 20px;
+    color: #710C21;
+    margin-top: 10px;
 }
 h3 {
-    color: #a45c7c;
+    color: #710C21;
     margin-top: 10px;
 }
 p {
     line-height: 1.6;
+    color:#290e19;
 }
 hr {
     border: none;
-    border-top: 1px solid #ecc2ec;
+    border-top: 1px solid #a24c61;
     margin: 10px 0;
 }
 nav ul {
     list-style: none;
-    background-color: #a45c7c;
-    color: #fff7f9;
+    background-color: #a24c61;
+    color: #411528;
     display: flex;
     justify-content: space-around;
     padding: 0;
@@ -70,11 +72,11 @@ nav {
     margin-top: 10px;
 }
 .intro-text {
-    text-align: left;
-    font-size: 22px;
+    text-align: center;
+    font-size: 26px;
     font-family: 'Lora', serif;
     font-style: italic;
-    color: #a45c7cd2;
+    color: #710C21;
 }
 .intro-image img {
     border-radius: 50%;
@@ -101,7 +103,7 @@ nav {
     text-align: center;
 }
 .blog-section {
-    background-color: #f6eef0;
+    background-color: #F5F3F7;
     border-radius: 15px;
     padding: 8px;
     max-height: 400px;
@@ -116,7 +118,9 @@ nav {
 }
 nav a {
     text-decoration: none;
-    color: aliceblue;
+    color: #FBEFF0;
+    font-size: 18px;
+    font-weight: 700;
 }
 nav a:focus {
     color: #ecc2ec;
@@ -129,7 +133,7 @@ a {
     cursor: pointer;
 }
 .text-box a {
-    color: #a45c7c;
+    color: #a24c61;
     text-decoration: none;
 }
 
@@ -138,9 +142,9 @@ a {
 }
 .text-box {
     border-radius: 12px;
-    border: solid 1.5px #a45c7c;
+    border: solid 1.5px #411528;
     padding: 10px;
-    background-color: #fff7f9;
+    background-color: #F5F3F7;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
     margin-top: 20px;
 }
@@ -162,8 +166,8 @@ a {
     cursor: pointer;
 }
 footer {
-    color: aliceblue;
-    background-color: #a45c7cd2;
+    color: #FBEFF0;
+    background-color: #a24c61;
     border: 1px solid #ecc2ecb4;
     font-size: smaller;
     height: auto;
