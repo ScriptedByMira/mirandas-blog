@@ -11,7 +11,7 @@ body {
     background: #FBEEF0;
     padding: 30px;
     border-radius: 5px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 10px 1px #df8597;
 }
 h1 {
     color: #710C21;
@@ -51,6 +51,8 @@ nav {
     width: 100%;
     margin: 0 -30px;
     width: calc(100% + 60px);
+    box-shadow: 0 1px 3px #411528;
+    /* Add depth*/
 }
 .contact-links {
     list-style: none;
@@ -73,7 +75,7 @@ nav {
 }
 .intro-text {
     text-align: center;
-    font-size: 26px;
+    font-size: 22px;
     font-family: 'Lora', serif;
     font-style: italic;
     color: #710C21;
