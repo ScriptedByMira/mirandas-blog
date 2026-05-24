@@ -103,8 +103,9 @@ nav {
     text-align: center;
 }
 .blog-section {
-    background-color: #F5F3F7;
+    background-color: #f0dee3;
     border-radius: 15px;
+    box-shadow: 0 3px 5px #9c627c;
     padding: 8px;
     max-height: 400px;
     overflow-y: scroll;
@@ -142,10 +143,9 @@ a {
 }
 .text-box {
     border-radius: 12px;
-    border: solid 1.5px #411528;
     padding: 10px;
-    background-color: #F5F3F7;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    background-color: #f0dee3;
+    box-shadow: 0 3px 5px #9c627c;
     margin-top: 20px;
 }
 .text-box p {
