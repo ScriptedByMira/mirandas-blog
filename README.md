@@ -20,4 +20,4 @@ To practice my skills, stay consistent and build in public.
 - Cleaned up HTML structure
 
 ## Live Site 
-https://scriptedbymiranda.github.io/mirandas-blog/
+https://scriptedbymira.github.io/mirandas-blog/
